@@ -1,0 +1,20 @@
+/* Custom palette for IFCP Wiki */
+:root {
+  --md-primary-fg-color: #C9789E;
+  --md-primary-fg-color--light: #e6b8ce;
+  --md-primary-fg-color--dark: #a04e74;
+  --md-accent-fg-color: #C9789E;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #C9789E;
+  --md-primary-fg-color--light: #e6b8ce;
+  --md-primary-fg-color--dark: #a04e74;
+  --md-accent-fg-color: #C9789E;
+}
+
+/* Make the logo larger in the header */
+.md-header__button.md-logo img, .md-header__button.md-logo svg {
+  height: 48px !important;
+  width: auto !important;
+  max-width: none !important;
+}
