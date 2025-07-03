@@ -1,4 +1,6 @@
-site_name: My Docs
+site_name: IFCP Wiki
 site_url: https://ifmp-foundation.github.io/wiki/
+repo_name: ifcp-foundation/wiki
+repo_url: https://github.com/ifcp-foundation/wiki
 theme:
   name: material
