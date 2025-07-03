@@ -1,6 +1,24 @@
-site_name: IFCP Wiki
+site_name:    Wiki
 site_url: https://ifmp-foundation.github.io/wiki/
 repo_name: ifcp-foundation/wiki
 repo_url: https://github.com/ifcp-foundation/wiki
 theme:
   name: material
+  logo: FCP.svg
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - palette
+extra_css:
+  - stylesheets/custom_palette.css
